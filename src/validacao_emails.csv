@@ -1,0 +1,9 @@
+email,status,motivo
+.teste@dominio.com,Inválido,Sintaxe inválida: An email address cannot start with a period.
+invalido-email.com,Inválido,Sintaxe inválida: An email address must have an @-sign.
+outro@email,Inválido,Sintaxe inválida: The part after the @-sign is not valid. It should have a period.
+usuario@dominio.inexistente12345.com,Inválido,Sintaxe inválida: The domain name dominio.inexistente12345.com does not exist.
+joao.silva@gmail.com,Válido,"alt4.gmail-smtp-in.l.google.com., gmail-smtp-in.l.google.com., alt3.gmail-smtp-in.l.google.com., alt1.gmail-smtp-in.l.google.com., alt2.gmail-smtp-in.l.google.com."
+support@google.com,Válido,smtp.google.com.
+teste@exemplo.com,Válido,mail.h-email.net.
+maria_souza@hotmail.com.br,Válido,nam.olc.protection.outlook.com.
