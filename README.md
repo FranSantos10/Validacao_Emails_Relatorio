@@ -44,8 +44,13 @@ Exemplo de saída (validacao_emails.csv)
 
 ## Estrutura do Código
 ler_emails(path): lê e-mails do arquivo de entrada.
+
 validar_sintaxe_email(email): valida a sintaxe de um e-mail.
+
 validar_dominio_email(domain): verifica se o domínio tem registros DNS válidos.
+
 processar_email(email, cache, lock): função principal que valida o e-mail (sintaxe + domínio), usando cache e controle de concorrência.
+
 gerar_arquivo_csv(caminho_saida, dados): grava os resultados no CSV.
+
 main(input_file, output_file, workers): orquestra a execução do script.
